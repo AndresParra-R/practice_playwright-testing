@@ -9,6 +9,7 @@ const TODO_ITEMS = [
   'feed the cat',
   'book a doctors appointment'
 ] as const;
+const hello: string = 'aguacate';
 
 test.describe('New Todo', () => {
   test('should allow me to add todo items', async ({ page }) => {
