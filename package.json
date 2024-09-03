@@ -28,9 +28,9 @@
         "prettier-eslint": "^16.3.0"
     },
     "lint-staged": {
-      "*.{js,ts,tsx,jsx}": [
-        "prettier --write",
-        "eslint --fix"
-      ]
+        "*.{js,ts,tsx,jsx,json,yml}": [
+            "prettier --write",
+            "eslint --fix"
+        ]
     }
 }
