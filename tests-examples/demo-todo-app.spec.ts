@@ -11,6 +11,8 @@ const TODO_ITEMS = [
   'book a doctors appointment'
 ] as const;
 
+//const Hola = 'a';
+
 test.describe('New Todo', () => {
   test('ID-1: should allow me to add todo items', async ({ page }) => {
     // create a new todo locator
